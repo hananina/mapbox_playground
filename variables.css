@@ -1,0 +1,23 @@
+:root {
+  /* Fonts */
+  --fonts-article: system-ui, yugothic, hiragino kaku gothic pro, hiragino sans, meiryo, sans-serif;
+  --fonts-sans-serif: system-ui, hiragino sans, meiryo, sans-serif;
+  --fonts-form: var(--fonts-sans-serif);
+
+  /* Colors:mains https://coolors.co/f8ca00-2c292d-07a0c3-e15554-3bb273 */
+  --color-main-text: #f8ca00;
+  --color-main-bg: #f8ca00;
+  --color-main-border: #f8ca00;
+
+  /* Colors:accents */
+  --color-accent-1-text: #f15946;
+  --color-accent-1-bg: #f15946;
+  --color-accent-1-border: #f15946;
+
+  /* Colors:bases */
+  --color-base-text: #2c292d;
+  --color-base-bg: #2c292d;
+  --color-base-border: #2c292d;
+  --color-base-shallow-bg: color(var(--color-base-bg) alpha(3%));
+  --color-base-shallow-border: color(var(--color-base-bg) alpha(7%));
+  --color-base-shallow-text: color(var(--color-base-bg) alpha(20%));

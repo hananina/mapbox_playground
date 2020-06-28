@@ -1,0 +1,41 @@
+@import '/variables.css';
+
+.marker {
+  background-image: url('mapbox-icon.png');
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: skyblue;
+  border: solid 1px #fff;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: block;
+  height: 100%;
+  width: 300px;
+  background-color: var(--color-base-bg);
+  padding: 5rem 1rem 0;
+}
+
+.btn-close, .btn-open {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  cursor: pointer;
+  z-index: 5;
+  background-color: var(--color-base-bg);
+  padding: 1rem 1.2rem;
+  line-height: 1;
+  border-radius: 0 0 4px 0;
+}
+
+.hide {
+  display: none;
+}
