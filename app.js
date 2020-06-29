@@ -1,3 +1,15 @@
+
+const { MAPBOX_ACCESSTOKEN } = process.env;
+module.exports = {
+  ...
+  env: {
+    MAPBOX_ACCESSTOKEN
+  },
+  ...
+};
+
+console.log(process.env.MAPBOX_ACCESSTOKEN);
+
 mapboxgl.accessToken = process.env.MAPBOX_ACCESSTOKEN;
   var map = new mapboxgl.Map({
   container: 'map', // container id
