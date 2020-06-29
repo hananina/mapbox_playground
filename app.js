@@ -1,12 +1,8 @@
 
-const { MAPBOX_ACCESSTOKEN } = process.env;
-module.exports = {
-  ...
-  env: {
-    MAPBOX_ACCESSTOKEN
-  },
-  ...
-};
+// const { MAPBOX_ACCESSTOKEN } = process.env;
+// module.exports = {
+//   env:  MAPBOX_ACCESSTOKEN;
+// };
 
 console.log(process.env.MAPBOX_ACCESSTOKEN);
 
