@@ -1,4 +1,4 @@
-@import '/variables.css';
+@import '/stylesheets/variables.css';
 
 .marker {
   background-image: url('mapbox-icon.png');

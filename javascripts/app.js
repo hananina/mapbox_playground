@@ -1,12 +1,12 @@
 
-// const { MAPBOX_ACCESSTOKEN } = process.env;
-// module.exports = {
-//   env:  MAPBOX_ACCESSTOKEN;
-// };
+// import React from "react";
+// import ReactDOM from "react-dom";
 
-console.log(process.env.MAPBOX_ACCESSTOKEN);
+// require('dotenv').config()
 
-mapboxgl.accessToken = process.env.MAPBOX_ACCESSTOKEN;
+// var hoge = process.env;
+// console.log(hoge);
+mapboxgl.accessToken = "pk.eyJ1IjoiaGFuYW5pbmEiLCJhIjoiY2ticnlmdDBqMTE5YjJyczRvbXdnam12YyJ9.YOfgwy27DMF-84KQs0oXnQ";
   var map = new mapboxgl.Map({
   container: 'map', // container id
   style: 'mapbox://styles/mapbox/streets-v11',
