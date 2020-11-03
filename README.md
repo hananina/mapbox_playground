@@ -6,7 +6,7 @@ This project is a solo project before starting the Chingue Voyage program. The p
 
 
 # Features
-- Map View with 5 avorite places markers displayed
+- Map View with 5 favorite places displayed
 - Popup information
 - Geocoder
 - Dynamic Sidebar
