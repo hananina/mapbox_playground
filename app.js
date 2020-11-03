@@ -38,7 +38,7 @@ var geojson = {
     },
     properties: {
       title: 'Ogikubo Town Seven',
-      description: 'Super Market'
+      description: 'Freash Super Market'
     }
   },
   {
